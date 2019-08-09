@@ -36,6 +36,14 @@ public class Main {
         // Long should be prefixed with L otherwise converted to Integer
         long myLongWithSmallValue = 100L;
 
+        // Java uses `int` by default. So we need to use casting when using byte, short
+        int myInt = (myIntMaxValue / 2);
+        byte myByte = (byte) (myByteMaxValue / 2);
+        short myShort = (short) (myShortMaxValue / 2);
+        System.out.println("MyInt = " + myInt);
+        System.out.println("MyByte = " + myByte);
+        System.out.println("MyShort = " + myShort);
+
 
     }
 }
