@@ -9,5 +9,15 @@ public class Main {
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
         MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
+
+        boolean isWakeUpCall = BarkingDog.shouldWakeUp(true, 1);
+        System.out.println(isWakeUpCall);
+        isWakeUpCall = BarkingDog.shouldWakeUp(false, 2);
+        System.out.println(isWakeUpCall);
+        isWakeUpCall = BarkingDog.shouldWakeUp(true, 8);
+        System.out.println(isWakeUpCall);
+        isWakeUpCall = BarkingDog.shouldWakeUp(true, -1);
+        System.out.println(isWakeUpCall);
+
     }
 }
