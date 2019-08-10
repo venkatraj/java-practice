@@ -31,5 +31,7 @@ public class Main {
         isLeapYear = LeapYear.isLeapYear(2000);
         System.out.println(isLeapYear);
 
+        DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.175);
+
     }
 }
