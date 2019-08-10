@@ -33,5 +33,11 @@ public class Main {
 
         DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.175);
 
+        String time = MinutesAndSeconds.getDurationString(23, 35);
+        System.out.println(time);
+
+        time = MinutesAndSeconds.getDurationString(4523);
+        System.out.println(time);
+
     }
 }
