@@ -2,11 +2,7 @@ package com.venkatraj;
 
 public class Switch {
     public static void findChar() {
-<<<<<<< HEAD
         char myChar = 'C';
-=======
-        int myChar = 'C';
->>>>>>> b9cb3569de2f541564fab1ad78e3733e7e762ee8
         switch(myChar) {
             case 'A':
                 System.out.println("It was A");
@@ -26,8 +22,36 @@ public class Switch {
             default:
                 System.out.println("It was not A,B,C,D or E");
                 break;
+        }
+    }
+
+    public static void dayOfTheWeek(int day) {
+        switch(day) {
+            case 0:
+                System.out.println("Sunday");
+                break;
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            default:
+                System.out.println("Invalid day");
+                break;
 
         }
-
     }
 }
