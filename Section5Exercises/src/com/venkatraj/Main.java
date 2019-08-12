@@ -6,5 +6,8 @@ public class Main {
 	    Switch.findChar();
 	    Switch.dayOfTheWeek(2);
 	    Switch.dayOfTheWeek(10);
+
+	    NumberInWord.printNumberInWord(4);
+        NumberInWord.printNumberInWord(14);
     }
 }
