@@ -2,7 +2,11 @@ package com.venkatraj;
 
 public class Switch {
     public static void findChar() {
+<<<<<<< HEAD
         char myChar = 'C';
+=======
+        int myChar = 'C';
+>>>>>>> b9cb3569de2f541564fab1ad78e3733e7e762ee8
         switch(myChar) {
             case 'A':
                 System.out.println("It was A");
