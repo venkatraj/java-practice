@@ -3,7 +3,7 @@ package com.venkatraj;
 public class Switch {
     public static void findChar() {
         char myChar = 'C';
-        switch(myChar) {
+        switch (myChar) {
             case 'A':
                 System.out.println("It was A");
                 break;
@@ -26,7 +26,7 @@ public class Switch {
     }
 
     public static void dayOfTheWeek(int day) {
-        switch(day) {
+        switch (day) {
             case 0:
                 System.out.println("Sunday");
                 break;
