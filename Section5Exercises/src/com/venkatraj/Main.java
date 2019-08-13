@@ -27,6 +27,8 @@ public class Main {
         System.out.println("Sum is = " + sum);
 
         System.out.println("sumOdd(1, 100) = " + SumOddRange.sumOdd(1, 100));
+
+        NumberPalindrome.isPalindrome(11);
     }
 
     private static boolean isDivisibleBy3and5(int num) {
