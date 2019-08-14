@@ -24,5 +24,6 @@ public class Main {
             printer.fillToner();
         }
         System.out.println("Toner Level = " + printer.getTonerLevel());
+        Polymorphism.main();
     }
 }
