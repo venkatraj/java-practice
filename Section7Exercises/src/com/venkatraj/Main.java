@@ -14,5 +14,15 @@ public class Main {
         room.switchOffTV();
         room.switchOffFan();
         System.out.println("Leaving the room...");
+
+        Printer printer = new Printer(10, true);
+        System.out.println("Pages printed so far = " + printer.getPagesPrinted());
+        printer.print(10);
+        System.out.println("Pages printed so far = " + printer.getPagesPrinted());
+        System.out.println("Toner Level = " + printer.getTonerLevel());
+        if (printer.getTonerLevel() == 0) {
+            printer.fillToner();
+        }
+        System.out.println("Toner Level = " + printer.getTonerLevel());
     }
 }
